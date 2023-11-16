@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     fetch(API_URL)
-    .then((res)=>res.json())
+    .then((response)=>response.json())
     .then(data=>{
       console.log(data);
       setMovies(data.results);
@@ -42,7 +42,7 @@ function App() {
     <>
     <Navbar bg="dark" expand="lg" variant="dark">
       <Container fluid>
-        <Navbar.Brand href="/home">Aon Ali Movies</Navbar.Brand>
+        <Navbar.Brand href="/home">Aon Movies</Navbar.Brand>
         
         <Navbar.Toggle aria-controls="navbarScroll"></Navbar.Toggle>
 
