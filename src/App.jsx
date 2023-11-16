@@ -55,7 +55,7 @@ function App() {
             <Form className="d-flex" onSubmit={searchMovie} autoComplete="off">
               <FormControl
               type="search"
-              placeholder="Movie Search"
+              placeholder="e.g spiderman"
               className="me-2"
               aria-label="search"
               name="query"
